@@ -29,3 +29,15 @@ Select Javascript
 cd frontend
 npm install
 npm run dev
+
+## branch: back-structure
+### dependencies
+cd ../backend
+npm init
+npm i --save-dev @babel/cli @babel/core @babel/node @babel/preset-env
+npm i body-parser cors express mongoose nodemon
+create a .babelrc file
+update package.json to include a start script
+### server setup
+create index.js
+npm start
