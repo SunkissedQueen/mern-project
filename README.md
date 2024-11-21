@@ -1,4 +1,5 @@
 # Mern Project
+Status: "in progress" - currently having a blocker with connecting to mongo.db. App starts then crashes. Removed the mongo.db locally. Pausing project for now.
 
 ## Update Xcode
 brew install mas
