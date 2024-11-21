@@ -47,3 +47,6 @@ npm start
 Type localhost:4000 to see the server running
 ## controllers, models, routes
 create separate directories for controllers, models, routes
+## database
+on index.js file, import mongoose for simpler syntax to interact with mongodb
+import bodyparser, cors, routes
