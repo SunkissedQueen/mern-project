@@ -29,6 +29,7 @@ Select Javascript
 cd frontend
 npm install
 npm run dev
+Copy/paste url into the browser to see the React app running
 
 ## branch: back-structure
 ### dependencies
@@ -38,6 +39,11 @@ npm i --save-dev @babel/cli @babel/core @babel/node @babel/preset-env
 npm i body-parser cors express mongoose nodemon
 create a .babelrc file
 update package.json to include a start script
+
 ### server setup
 create index.js
+cd backend
 npm start
+Type localhost:4000 to see the server running
+## controllers, models, routes
+create separate directories for controllers, models, routes
