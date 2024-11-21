@@ -1,4 +1,5 @@
 # Mern Project
+Status: "in progress" - currently having a blocker with connecting to mongo.db. App starts then crashes. Removed the mongo.db locally. Pausing project for now.
 
 ## Update Xcode
 brew install mas
@@ -29,3 +30,24 @@ Select Javascript
 cd frontend
 npm install
 npm run dev
+Copy/paste url into the browser to see the React app running
+
+## branch: back-structure
+### dependencies
+cd ../backend
+npm init
+npm i --save-dev @babel/cli @babel/core @babel/node @babel/preset-env
+npm i body-parser cors express mongoose nodemon
+create a .babelrc file
+update package.json to include a start script
+
+### server setup
+create index.js
+cd backend
+npm start
+Type localhost:4000 to see the server running
+## controllers, models, routes
+create separate directories for controllers, models, routes
+## database
+on index.js file, import mongoose for simpler syntax to interact with mongodb
+import bodyparser, cors, routes
